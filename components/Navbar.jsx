@@ -38,6 +38,7 @@ const Navbar = () => {
                 {/*                     className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>}*/}
             </div>
 
+
             <ul className="hidden md:flex items-center gap-4 ">
                 <Image className="w-4 h-4" src={assets.search_icon} alt="search icon"/>
                 { user ? <>
