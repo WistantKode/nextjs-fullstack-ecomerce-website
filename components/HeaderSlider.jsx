@@ -28,6 +28,14 @@ const HeaderSlider = () => {
             buttonText2: "Learn More",
             imgSrc: assets.header_macbook_image,
         },
+        {
+            id: 4,
+            title: "Power Meets Elegance - Apple MacBook Pro is Here for you!",
+            offer: "Exclusive Deal 40% Off",
+            buttonText1: "Order Now",
+            buttonText2: "Learn More",
+            imgSrc: assets.header_macbook_image,
+        },
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
